@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../App.css";
 
 function BookAddForm() {
-    const API_URL = "http://localhost:3000/api/books";
+    const API_URL = "http://backend:5000";
 
     const [formData, setFormData] = useState({
         name: "",

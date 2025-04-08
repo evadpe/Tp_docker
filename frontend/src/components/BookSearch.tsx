@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const API_URL = "http://localhost:3000/api/books";
+const API_URL = "http://backend:5000";
 
 const BookSearch = () => {
     const [query, setQuery] = useState("");

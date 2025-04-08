@@ -1,7 +1,7 @@
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
-const API_URL = "http://localhost:3000/api/books";
+const API_URL = "http://backend:5000";
 
 function DeleteBook() {
     const { id } = useParams();

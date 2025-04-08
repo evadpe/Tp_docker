@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 
-const API_URL = "http://localhost:3000/api/books";
+const API_URL = "http://backend:5000";
 
 const EditBook = () => {
     const { isbn } = useParams();

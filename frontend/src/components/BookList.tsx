@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import BookSearch from "./BookSearch.tsx";
 // @ts-ignore
 import mhm from "../img/pied.png";
-const API_URL = "http://localhost:3000/api/books";
+const API_URL = "http://backend:5000";
 
 const BookList = () => {
     const [books, setBooks] = useState([]);
